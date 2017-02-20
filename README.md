@@ -30,3 +30,11 @@ Les recherches "2016 Android", "E4 SI-4201", ou "Raynal Cours E4" peuvent donc t
 
 ## Description technique du projet
 
+### React Native
+
+React Native est une bibliothèque javascript et un ensemble d'outils permettant de développer tout ou partie d'une application mobile en javascript. Elle a été créée par facebook sur la base de React, une bibliothèque similaire destinée au navigateur.   
+Elle permet notamment de partager une grande quantitée de code entre les versions iOS et Android d'une application, mais reste basée sur des composants d'UI natifs, atteignant ainsi de très bonnes performances (contrairement aux outils similaires jusqu'ici basés sur des webviews).  
+Malgré sa relative nouveautée, React Native est utilisé dans de nombreuses Applications : Facebook, Instagram, Airbnb, Soundcloud l'utilisent en production.
+J'ai donc choisi de l'utiliser, afin qu'une fois la version Android terminée, je puisse publier une version iOS au plus vite.
+
+### Challenges rencontrés
