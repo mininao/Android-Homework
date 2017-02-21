@@ -52,3 +52,6 @@ La communauté react native est particulièrement active, et nous permet de bén
   Ce module permet d'implémenter le mécanisme de scroll horizontal entre les différents onglets visibles au bas de l'application.
 - [react-native-vector-icons](https://www.npmjs.com/package/react-native-vector-icons)
   Ce module gère l'importation de fonts d'icônes, et leur utilisation via un élément `<Icon>`
+
+### Le backend
+J'ai réalisé le backend avec le framework php symfony et avec l'aide de mon coéquipier technique au BDE, Naji Astier.
