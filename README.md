@@ -38,3 +38,17 @@ Malgré sa relative nouveautée, React Native est utilisé dans de nombreuses Ap
 J'ai donc choisi de l'utiliser, afin qu'une fois la version Android terminée, je puisse publier une version iOS au plus vite.
 
 ### Challenges rencontrés
+
+
+### Modules utilisés
+La communauté react native est particulièrement active, et nous permet de bénéficier ainsi de nombreux modules open-source. On note qu'il est souvent nécessaire d'utiliser d'avantage de modules avec react-native qu'en développement natif, les créateurs de react native ayant la volonté de garder leur framework assez léger. Nous avons utilisé les suivants :
+- [react-native-google-signin](https://www.npmjs.com/package/react-native-google-signin)
+  Permet d'authentifier l'utilisateur via l'authentification google. Ce module s'est révélé toutefois difficile à intégrer et nous avons dû downgrader notre version de react-native pour qu'il soit fonctionnel.
+- [react-native-linear-gradient](https://www.npmjs.com/package/react-native-linear-gradient)
+  Ce module fort pratique permet d'afficher des dégradés, par ailleurs non gérés par react native
+- [react-native-router-flux](https://www.npmjs.com/package/react-native-router-flux)
+  Ce module permet de créer un "routeur", qui à l'instar du système d'url sur internet, permet de gérer différentes "scènes" au sein de l'application
+- [react-native-scrollable-tab-view](https://www.npmjs.com/package/react-native-scrollable-tab-view)
+  Ce module permet d'implémenter le mécanisme de scroll horizontal entre les différents onglets visibles au bas de l'application.
+- [react-native-vector-icons](https://www.npmjs.com/package/react-native-vector-icons)
+  Ce module gère l'importation de fonts d'icônes, et leur utilisation via un élément `<Icon>`
